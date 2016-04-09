@@ -1,3 +1,5 @@
+[![](https://badge.imagelayers.io/robbert229/rsyslog:latest.svg)](https://imagelayers.io/?images=robbert229/rsyslog:latest 'Get your own badge on imagelayers.io')
+
 ## Rsyslog Dockerfile
 
 Rsyslog running in a linux container as a server, listening on 514 (tcp and udp), and writing to /var/log/syslog.
