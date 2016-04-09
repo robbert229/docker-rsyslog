@@ -1,6 +1,6 @@
 ## Rsyslog Dockerfile
 
-Rsyslog Dockerfile that is designed to be used with rocketlog
+Rsyslog running in a linux container as a server, listening on 514 (tcp and udp), and writing to /var/log/syslog.
 
 ### Usage
 
