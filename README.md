@@ -10,7 +10,7 @@ This container will listen on 514/udp, and 514/tcp and write it to /var/log/sysl
 
 For cli creation
 
-    docker run --name rsyslog --rm  -p 514:514/udp -p 514:514  robbert229/rsyslog -v "./syslog:/var/log/syslog"
+    docker run --name rsyslog --rm  -p 514:514/udp -p 514:514 -v "./syslog:/var/log/syslog" robbert229/rsyslog 
 
 
 Or For docker-compose
